@@ -1,5 +1,6 @@
 import React from 'react';
 import foto from '../images/foto44.png';
+import '../stylesheets/Testimonio.css';
 
 // This is a functional component
 function Testimino() {
