@@ -3,7 +3,7 @@ import foto from '../images/foto44.png';
 import '../stylesheets/Testimonio.css';
 
 // This is a functional component
-function Testimino() {
+function Testimino(props) {
   // This component returns JSX. 
   return (
     <>
@@ -12,14 +12,14 @@ function Testimino() {
       <img 
       className='imagen-testimonio'
       src={foto}
-      alt='Foto de Edward el papi'
-      />
+      alt='Foto de Edward el papi' />
+      <div className='contenedor-texto-testimonio'>
+      <p className='nombre-testimonio'><strong>{props.name}</strong></p>
+      <p className='cargo-testimonio'>{props.profession} / {props.job} at {props.empresa} / {props.hobby}</p>
+      <p className='texto-testimonio'>{props.testimino}</p>
     </div>
-    <div className='contenedor-texto-testimonio'>
-      <p className='nombre-testimonio'>Edward Sierra</p>
-      <p className='cargo-testimonio'>Ingeniero de Sistemas / QA / Frontend Dev</p>
-      <p className='texto-testimonio'>Hola buenas tardes a todos, saludos desde mi web de estudio</p>
     </div>
+
     </>
   );
 }
