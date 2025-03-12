@@ -1,28 +1,25 @@
 import React from 'react';
-import Testimino from './components/Testimino.jsx';
+import Testimonio from './components/Testimonio.jsx';
+import data from './data/people-data.json';
 import './App.css';
 
 function App() {
-
   return (
     <>
       <div className='App'>
           <div className='main-container'>
           <h1>Esto es lo que dice el makia</h1>
-          <Testimino 
-            name='Edward Sierra'
-            profession='Ingeniero de Sistemas'
-            job='QA'
-            hobby='Frontend Developer'
-            empresa='Rhiscom'
-            testimino='Edward el papi es un makia que le pone onda a la vida. Es un crack y un genio. Todos lo aman.' />
-          <Testimino 
-            name='María Patricia'
-            profession='Contadora'
-            job='Asistente Contable'
-            hobby='Cocinar'
-            empresa='BlueTrans'
-            testimino='María Patricia es una genia. Es la mejor contadora que he conocido. Es muy inteligente y muy trabajadora.' />
+          { data.map(person => 
+              <Testimonio
+                key={person.key} 
+                name={person.name}
+                profession={person.profession}
+                job={person.job}
+                hobby={person.hobby}
+                work={person.work}
+                testimonio={person.testimonio} />
+            )}
+            {/** Map me permite recorrer un array sencillo de manera completa [] */}
         </div>
       </div>
     </>

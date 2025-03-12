@@ -5,6 +5,9 @@
 1- Lograr que el texto de los testimonios esté en negrita,
     pero variable o donde yo quiera.
 2- Modificar los alt para que asigne dinamicamente los
-    nombres reales.
+    nombres reales. [✅]
 3- Guardar los datos de los props en archivo separado
-    y luedo importarlo y usarlo.
+    y luedo importarlo y usarlo. [✅]
+
+TAREAS: Investigar y estudiar los metodos que puedo usar
+        cuando uso arreglos

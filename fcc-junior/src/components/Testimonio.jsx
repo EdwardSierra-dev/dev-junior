@@ -3,7 +3,7 @@ import foto from '../images/foto44.png';
 import '../stylesheets/Testimonio.css';
 
 // This is a functional component
-function Testimino(props) {
+function Testimonio(props) {
   // This component returns JSX. 
   return (
     <>
@@ -12,11 +12,11 @@ function Testimino(props) {
       <img 
       className='imagen-testimonio'
       src={foto}
-      alt='Foto de Edward el papi' />
+      alt={props.name} />
       <div className='contenedor-texto-testimonio'>
       <p className='nombre-testimonio'><strong>{props.name}</strong></p>
-      <p className='cargo-testimonio'>{props.profession} / {props.job} at {props.empresa} / {props.hobby}</p>
-      <p className='texto-testimonio'>{props.testimino}</p>
+      <p className='cargo-testimonio'>{props.profession} / {props.job} at {props.work} / {props.hobby}</p>
+      <p className='texto-testimonio'>{props.testimonio}</p>
     </div>
     </div>
 
@@ -24,7 +24,7 @@ function Testimino(props) {
   );
 }
 
-export default Testimino;
+export default Testimonio;
 // This is a functional component that returns JSX.
 // This component is imported into App.jsx.
 // This component is rendered in App.jsx.
