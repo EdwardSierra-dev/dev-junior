@@ -10,4 +10,6 @@
     y luedo importarlo y usarlo. [✅]
 
 TAREAS: Investigar y estudiar los metodos que puedo usar
-        cuando uso arreglos
+        cuando uso arreglos.
+
+1- Hacer la calculadora TU!!! MORALLLL!!!
