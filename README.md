@@ -81,6 +81,10 @@ const [state, setState] = useState(initialState)
 
 Es una función en JS que se ejecuta cuando ocurre un evento especifico. Es una función que se le asigna a un elemento de nuestra aplicación.
 
+```jsx
+onClick={() => props.manejarClick(props.children)} >
+```
+
 - ### Event Handler
 
 
