@@ -2,3 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 1200px;
+  gap: 5px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #041C32;
+}

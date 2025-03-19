@@ -1,18 +1,23 @@
 import './App.css';
 import Card from './components/Card.jsx';
+import data from './data/data.json';
 
 function App() {
   return (
-    <>
-      <h1>Esta es mi app de Rick y Morty</h1>
-      <Card 
-        pic='https://rickandmortyapi.com/api/character/avatar/1.jpeg'
-        name='Edward'
-        id='23'
-        species='Humano'
-        gender='Masculino'
-      />
-    </>
+    <div className='App'>
+      <div className='contenedor-tarjetas'>
+        {data.map(character =>
+          <Card 
+            key={character.id}
+            id={character.id}
+            pic={character.image}
+            name={character.name}
+            species={character.species}
+            gender={character.gender}
+          />
+        )}
+      </div>
+    </div>
   )
 }
 

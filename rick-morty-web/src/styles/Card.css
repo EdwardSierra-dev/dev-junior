@@ -1,0 +1,20 @@
+.contenedor-card {
+  width: 300px;
+  height: 420px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #083d6f;
+  border-radius: 20px;
+}
+
+.titulo-nombre {
+  font-size: 26px;
+}
+
+p {
+  color: white;
+  padding-left: 10px;
+}
+
+img {
+  border-radius: 20px 20px 0 0;
+}

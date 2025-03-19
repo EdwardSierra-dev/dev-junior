@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Card.css'
 
 function Card ({ id, name, species, gender, pic }) {
   return (
@@ -7,10 +8,10 @@ function Card ({ id, name, species, gender, pic }) {
         <img src={pic} />
       </div>
       <div className='contenedor-info-personaje'>
-        <h2>Nombre: {name}</h2>
-        <h2>ID: {id}</h2>
-        <p>Especie: {species}</p>
-        <p>Genero: {gender}</p>
+        <p className='titulo-nombre'><strong>Nombre:</strong> {name}</p>
+        <p><strong>ID:</strong> {id}</p>
+        <p><strong>Especie:</strong> {species}</p>
+        <p><strong>Genero:</strong> {gender}</p>
       </div>
     </div>
   );
