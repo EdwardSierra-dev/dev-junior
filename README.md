@@ -88,7 +88,13 @@ onClick={() => props.manejarClick(props.children)} >
 - ### Event Handler
 
 
+- ### Instalación de paquetes
+```jsx
+import { AiOutlineCloseCircle } from 'react-icons/ai';  
+<AiOutlineCloseCircle className='tarea-icono' />
+```
+Para llamar los íconos se debe hacer de la misma manera en que utilizamos los componentes, ```<AiOutlineCloseCircle />``` ya que los íconos son componentes de React.
 
 
-
+## Week 2: CSS Basics and Core Concepts
 
