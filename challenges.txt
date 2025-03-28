@@ -10,8 +10,9 @@
     y luedo importarlo y usarlo. [✅]
 4- Meneja los errores de la calculadora.
 
-TAREAS: Investigar y estudiar los metodos que puedo usar
+TAREAS: - Investigar y estudiar los metodos que puedo usar
         cuando uso arreglos.
+        - Curso de CSS.
 
 1- Hacer la calculadora TU!!! MORALLLL!!!
 2- Estudia los events listener
