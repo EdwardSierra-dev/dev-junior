@@ -97,4 +97,57 @@ Para llamar los íconos se debe hacer de la misma manera en que utilizamos los c
 
 
 ## Week 2: CSS Basics and Core Concepts
+```css
+selector {
+  propiedad: valor; <- Declaración
+}
+```
+Podemos usar 3 tipos de selectores para aplicar los estilos de css.
+1. Clases
+   ```css
+   .nombre_clase {declaracion...}
+   ```
+2. Tag o etiquetas
+   ```css
+   etiqueta_html {declaracion...}
+   ```
+4. Id
+   ```css
+   #id_de_etiqueta {declaracion...}
+   ```
+
+> [!CAUTION]
+> Debemo evitar usar los elementos directamente y los identificadores.
+
+### Pseudoclases
+
+Las ```Pseudoclases``` se usan para modificar el estado de un elemento en ciertas situaciones:
+```css
+h1:hover { background-color: blue; } Esta pseudoclase nos permite cambiar el estado cuando el cursos esté sobre este elemento h1
+```
+> [!TIP]
+> Si quieres colocarle borde a un elemento cuando se haga un hover, te recomiendo que uses la propiedad ```outline```
+```css
+h1:hover{
+  outline: solid 2px red; ✅
+  border: solid 2px red; ❌
+}
+```
+
+### Pseudoclases (PRÓXIMAMENTE)
+
+### Especificidad
+
+
+
+
+
+
+
+
+
+
+
+
+
 
